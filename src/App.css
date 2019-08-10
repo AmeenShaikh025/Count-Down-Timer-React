@@ -1,33 +1,32 @@
+body {
+  background-image: linear-gradient(to right, #f9bebd 50%, #cbeae5 50%);
+}
+
 .App {
   text-align: center;
+  font-size: 35px;
+  margin-top: 20%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.App-title {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.8);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-common {
+  background: #993955;
+  border-color: #993955;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Clock-days,
+.Clock-hours,
+.Clock-minutes,
+.Clock-seconds {
+  display: inline;
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.8);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Deadline-input {
+  font-size: 25px;
+  margin: 5px;
 }
